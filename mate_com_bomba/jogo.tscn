@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://ds3aeruudhp6q"]
+
+[ext_resource type="Script" uid="uid://cqmck3l5jp7g" path="res://tela_inicio.gd" id="1_evvns"]
+[ext_resource type="Texture2D" uid="uid://duiig1xfwewx6" path="res://imagens/capa_inicio.jpg" id="1_kxg5b"]
+
+[node name="jogo" type="Node2D"]
+
+[node name="tela_inicio" type="Node2D" parent="."]
+script = ExtResource("1_evvns")
+
+[node name="imagem_inicio" type="Sprite2D" parent="tela_inicio"]
+position = Vector2(576.5, 324.5)
+scale = Vector2(0.749349, 0.631836)
+texture = ExtResource("1_kxg5b")
+metadata/_edit_lock_ = true
+
+[node name="jogar" type="TextureButton" parent="tela_inicio"]
+offset_left = 416.0
+offset_top = 286.0
+offset_right = 725.0
+offset_bottom = 378.0
+
+[node name="opcoes" type="TextureButton" parent="tela_inicio"]
+offset_left = 417.0
+offset_top = 394.0
+offset_right = 725.0
+offset_bottom = 487.0
+
+[node name="sair" type="TextureButton" parent="tela_inicio"]
+offset_left = 432.0
+offset_top = 504.0
+offset_right = 711.0
+offset_bottom = 596.0
+
+[node name="Label" type="Label" parent="tela_inicio"]
+offset_left = 196.0
+offset_top = 252.0
+offset_right = 420.0
+offset_bottom = 310.0
+text = "BLABLABLA"
+
+[connection signal="pressed" from="tela_inicio/jogar" to="tela_inicio" method="_on_jogar_pressed"]
+[connection signal="pressed" from="tela_inicio/jogar" to="tela_inicio" method="_on_texture_button_pressed"]
+[connection signal="pressed" from="tela_inicio/opcoes" to="tela_inicio" method="_on_opcoes_pressed"]
+[connection signal="pressed" from="tela_inicio/sair" to="tela_inicio" method="_on_sair_pressed"]

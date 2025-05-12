@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="mate_com_bomba"
+run/main_scene="uid://ds3aeruudhp6q"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
