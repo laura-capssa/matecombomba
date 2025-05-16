@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dq4g6klblcqf7"
-path="res://.godot/imported/capa_inicio.JPG-a22a7dc9425afaaa910963270ab11292.ctex"
+uid="uid://bdvsh2rs5i5jx"
+path="res://.godot/imported/mapa_RS.jpeg-3e3ea86f9055d3298b759e9185248505.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://imagens/capa_inicio.JPG"
-dest_files=["res://.godot/imported/capa_inicio.JPG-a22a7dc9425afaaa910963270ab11292.ctex"]
+source_file="res://imagens/mapa_RS.jpeg"
+dest_files=["res://.godot/imported/mapa_RS.jpeg-3e3ea86f9055d3298b759e9185248505.ctex"]
 
 [params]
 

@@ -2,7 +2,7 @@ extends Node2D
 
 
 # Called when the node enters the scene tree for the first time.
-func _ready() -> void:		
+func _ready() -> void:
 	pass # Replace with function body.
 
 
@@ -10,11 +10,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-func _on_jogar_pressed() -> void:
-	#$Label.text = "JOGAR" 	
-	get_tree().change_scene_to_file("../escolha_personagens")
+func _on_ok_pressed() -> void:
+	get_tree().change_scene_to_file("../mapa_museu")
 	$".".visible = false
-	$"../escolha_personagens".visible = true
-
-func _on_sair_pressed() -> void:
-	$Label.text = "SAIR"
+	$"../mapa_museu".visible = true
