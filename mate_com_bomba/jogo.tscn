@@ -38,6 +38,7 @@ offset_right = 420.0
 offset_bottom = 310.0
 text = "BLABLABLA"
 
+<<<<<<< Updated upstream
 [node name="escolha_personagens" type="Node2D" parent="."]
 visible = false
 script = ExtResource("4_qn35j")
@@ -64,5 +65,10 @@ metadata/_edit_lock_ = true
 
 [connection signal="pressed" from="tela_inicio/jogar" to="tela_inicio" method="_on_texture_button_pressed"]
 [connection signal="pressed" from="tela_inicio/jogar" to="tela_inicio" method="_on_jogar_pressed"]
+=======
+[connection signal="pressed" from="tela_inicio/jogar" to="tela_inicio" method="_on_texture_button_pressed"]
+[connection signal="pressed" from="tela_inicio/jogar" to="tela_inicio" method="_on_jogar_pressed"]
+[connection signal="pressed" from="tela_inicio/opcoes" to="tela_inicio" method="_on_opcoes_pressed"]
+>>>>>>> Stashed changes
 [connection signal="pressed" from="tela_inicio/sair" to="tela_inicio" method="_on_sair_pressed"]
 [connection signal="pressed" from="escolha_personagens/OK" to="escolha_personagens" method="_on_ok_pressed"]
